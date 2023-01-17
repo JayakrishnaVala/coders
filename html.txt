@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color:black;">
+<p align="center">
+<button class="btn"><i class="fa fa-home">Home</i></button>
+<button class="btn"><i class="fa fa-about us">About us</i></button>
+<button class="btn"><i class="fa fa-contacts">Contacts</i></button>
+</p>
+<p align="left">
+<img src="Screenshot_20221213-230802_Google (1).jpg" alt="book my show" width="100" height="100">
+</p>
+<head>
+<marquee>
+<p align center><p style="color:red"><b>30% off on now booking</p>
+<img src="Screenshot_20221211-233147_Google.jpg" alt="avenger" width="800" height="450">
+<img src="Screenshot_20221212-000726_Google.jpg" alt="age of ultron" width="800" height="450">
+<img src="Screenshot_20221212-000649_Google.jpg" alt="lion king" width="800" height="450">
+</marquee>
+<style>
+<body>
+<hr>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        background-color: rgb(21, 148, 252);
+        padding: 10px;
+    }
+   
+    .grid-container > div {
+        background-color: rgba(255,255,255,0.8);
+        border: 5px solid black;
+        text-align: center;
+        padding: 20 px 0;
+        font-size: 20px;
+    }
+.item1{
+     grid-row: 1/ span 1;
+}
+    .grid-container{
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows: 100px ;
+    }
+</style>
+<body>
+    <div class="grid-container">
+        <div class="item1"><label for="movies">choose movie:</label>
+        <select id="movie"name="movie">
+        <option value="avenger end game">Avenger End Game</option>
+        <option value="lion king">Lion king</option>
+        <option value="the ultron">The Ultron</option></div><br>
+        <label for="timing">choose timing:</label>
+        <select id="movie"time="movie">
+        <button type="btn"><onclick="alert("hindi)">HINDI</i></button>
+        <button class="btn"><i class="fa fa-english">ENGLISH</i></button>
+        <button class="btn"><i class="fa fa-tamil">TAMIL</i></button></div>
+    <div class="item2"><label for="timing">choose time:</label>
+        <select id="time"name="time">
+        <option value="9a.m to 12p.m">9a.m to 12p.m</option>
+        <option value="1p.m to 4p.m">1p.m to 4p.m</option>
+        <option value="6p.m to 9p.m">6p.m to 9p.m</option><br></div>
+        <p align left bottom><input type="submit" value="Submit"></p></div>
+    <div class="item3"><img src="Screenshot_20221212-000726_Google.jpg" alt="age of ultron" width="400" height="200">
+                       <img src="Screenshot_20221212-000649_Google.jpg" alt="lion king" width="400" height="200">
+                       <img src="Screenshot_20221211-233147_Google.jpg" alt="avenger" width="300" height="200"></div>
+    <div class="item4"><p align center><p><b>UPCOMING MOVIE<br></p>
+                       <img src="tempFileForShare_20221213-214447.jpg" alt="Aadipurush" width="500" height="300">
+                       <img src="Screenshot_20221213-214717_Google (1).jpg" alt="K.G.F 2" widh="400" height="300">  
+       
+</div>
+</body>
